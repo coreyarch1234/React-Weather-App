@@ -12,4 +12,10 @@ The App component acts as the main entry point for the app. It displays the Weat
 
 ### Weather 
 
-The Weather component loads weather data. It handles input from the SearchBar component and uses the ShowWeather component to display weather data that is loaded. It 
+The Weather component loads weather data. It handles input from the SearchBar component and uses the ShowWeather component to display weather data that is loaded. 
+
+Imagine this component as both the parent and manager for both SearchBar and ShowWeather components. It displays these components, receives messages from SearchBar, and passes properties to ShowWeather. 
+
+### SearchBar
+
+The SearchBar component contains a form with an input and a submit button. 
