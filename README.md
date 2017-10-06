@@ -4,7 +4,7 @@ A simple starter for a weather app built with React and OpenWeatherMap
 
 ## Overview
 
-This is a web app built with Create React App. It defines three components to search weather data for a city input. 
+This is a web app built with React Native. It defines three components to search weather data for a city input.
 
 ### App 
 
